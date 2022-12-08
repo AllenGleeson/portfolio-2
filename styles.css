@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 50px;
+}
+
+.card .container img{
+    width: 100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.about_me {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.about_me img {
+    height: 200px;
+    width: 200px;
+    border: 0.5rem solid black;
+    border-radius: 5px;
+}
+
+.about_me{
+    background-color: blue;
+}
+
+.my_work{
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.contact{
+    background-color: red;
+}
+
+.contact .container h2{
+    margin: 0;
+}
+
+.contact img{
+    height: 200px;
+    width: 200px;
+    border: 0.5rem solid black;
+    border-radius: 5px;
+}
