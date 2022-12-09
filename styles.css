@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'roboto', sans-serif;
 }
 
 .card {
@@ -11,6 +12,10 @@ body{
 
 .card .container img{
     width: 100%;
+}
+
+.card .container{
+    color: #eaeaea;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -32,17 +37,17 @@ body{
 }
 
 .about_me{
-    background-color: blue;
+    background-color: #b0b0b0;
 }
 
 .my_work{
-    background-color: greenyellow;
+    background-color: #646464;
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
 .contact{
-    background-color: red;
+    background-color: #b0b0b0;
 }
 
 .contact .container h2{
@@ -54,4 +59,13 @@ body{
     width: 200px;
     border: 0.5rem solid black;
     border-radius: 5px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    .my_work{
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
